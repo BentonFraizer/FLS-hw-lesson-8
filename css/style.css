@@ -317,7 +317,7 @@ body {
 .postinfoitem:first-child::before {
 	content: "";
 	display: inline-block;
-	background: url("img/calendar-icon.png") 0 0 no-repeat;
+	background: url("../img/calendar-icon.png") 0 0 no-repeat;
 	width: 14.5px;
 	height: 16px;
 	margin: 7px 5px 0px 0px;
@@ -326,7 +326,7 @@ body {
 .postinfoitem:nth-child(2)::before {
 	content: "";
 	display: inline-block;
-	background: url("img/eye-icon.png") 0 0 no-repeat;
+/* 	background: url("../img/eye-icon.png") 0 0 no-repeat; */
 	width: 16px;
 	height: 14px;
 	margin: 7px 5px 0px 0px;
@@ -335,7 +335,7 @@ body {
 .postinfoitem:last-child::before {
 	content: "";
 	display: inline-block;
-	background: url("img/messages-icon.png") 0 0 no-repeat;
+	background: url("../img/messages-icon.png") 0 0 no-repeat;
 	width: 16px;
 	height: 16px;
 	margin: 7px 5px 0px 0px;
@@ -398,7 +398,7 @@ body {
 .contactsitem:first-child::before {
 	content: "";
 	display: inline-block;
-	background: url("img/map-pointer-icon.png") 0 0 no-repeat;
+	background: url("../img/map-pointer-icon.png") 0 0 no-repeat;
 	width: 50px;
 	height: 55px;
 	margin: 5px 30px 0px 0px;
@@ -408,7 +408,7 @@ body {
 .contactsitem:nth-child(2)::before {
 	content: "";
 	display: inline-block;
-	background: url("img/Phone-icon.png") 0 0 no-repeat;
+	background: url("../img/Phone-icon.png") 0 0 no-repeat;
 	width: 50px;
 	height: 55px;
 	margin: -11px 22px 0px 8px;
@@ -418,7 +418,7 @@ body {
 .contactsitem:last-child::before {
 	content: "";
 	display: inline-block;
-	background: url("img/mail-icon.png") 0 0 no-repeat;
+	background: url("../img/mail-icon.png") 0 0 no-repeat;
 	width: 50px;
 	height: 55px;
 	margin: -9px 24px 0px 6px;
@@ -472,7 +472,7 @@ body {
 
 .maininfo {
 	min-height: 376px;
-	background: #FAFAFB url('img/atteat-bg.png') right top no-repeat;
+	background: #FAFAFB url('../img/atteat-bg.png') right top no-repeat;
 	margin: 0px 0px 33px 0px;
 }
 
