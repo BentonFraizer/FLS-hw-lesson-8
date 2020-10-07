@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Futura PT Book';
-	src: url('/fonts/FuturaPT-Book.woff2') format('woff2'),
-			url('/fonts/FuturaPT-Book.woff') format('woff');
+	src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+			url('../fonts/FuturaPT-Book.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: url('/fonts/Gilroy-Regular.woff2') format('woff2'),
-			url('/fonts/Gilroy-Regular.woff') format('woff');
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+			url('../fonts/Gilroy-Regular.woff') format('woff');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: url('/fonts/Gilroy-Medium.woff2') format('woff2'),
-			url('/fonts/Gilroy-Medium.woff') format('woff');
+	src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+			url('../fonts/Gilroy-Medium.woff') format('woff');
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: url('/fonts/Gilroy-Heavy.woff2') format('woff2'),
-			url('/fonts/Gilroy-Heavy.woff') format('woff');
+	src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+			url('../fonts/Gilroy-Heavy.woff') format('woff');
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
@@ -36,8 +36,8 @@
 
 @font-face {
 	font-family: 'Gilroy';
-	src: url('/fonts/Gilroy-Black.woff2') format('woff2'),
-			url('/fonts/Gilroy-Black.woff') format('woff');
+	src: url('../fonts/Gilroy-Black.woff2') format('woff2'),
+			url('../fonts/Gilroy-Black.woff') format('woff');
 	font-weight: 900;
 	font-style: normal;
 	font-display: swap;
@@ -96,7 +96,7 @@ body {
 
 .hero {
 	z-index: 1;
-	background: url("/img/Decor-bg.png") right 22% top 10% no-repeat;
+	background: url("img/Decor-bg.png") right 22% top 10% no-repeat;
 }
 
 .header {
@@ -162,7 +162,7 @@ body {
 	content: "";
 	width: 20px;
 	height: 11px;
-	background: url('/img/Arrow1.png') 0 0 no-repeat;
+	background: url('img/Arrow1.png') 0 0 no-repeat;
 	display: inline-block;
 	margin: 0px 0px 0px 18px;
 }
@@ -316,7 +316,7 @@ body {
 .postinfoitem:first-child::before {
 	content: "";
 	display: inline-block;
-	background: url("/img/calendar-icon.png") 0 0 no-repeat;
+	background: url("img/calendar-icon.png") 0 0 no-repeat;
 	width: 14.5px;
 	height: 16px;
 	margin: 7px 5px 0px 0px;
@@ -325,7 +325,7 @@ body {
 .postinfoitem:nth-child(2)::before {
 	content: "";
 	display: inline-block;
-	background: url("/img/eye-icon.png") 0 0 no-repeat;
+	background: url("img/eye-icon.png") 0 0 no-repeat;
 	width: 16px;
 	height: 14px;
 	margin: 7px 5px 0px 0px;
@@ -334,7 +334,7 @@ body {
 .postinfoitem:last-child::before {
 	content: "";
 	display: inline-block;
-	background: url("/img/messages-icon.png") 0 0 no-repeat;
+	background: url("img/messages-icon.png") 0 0 no-repeat;
 	width: 16px;
 	height: 16px;
 	margin: 7px 5px 0px 0px;
@@ -397,7 +397,7 @@ body {
 .contactsitem:first-child::before {
 	content: "";
 	display: inline-block;
-	background: url("/img/map-pointer-icon.png") 0 0 no-repeat;
+	background: url("img/map-pointer-icon.png") 0 0 no-repeat;
 	width: 50px;
 	height: 55px;
 	margin: 5px 30px 0px 0px;
@@ -407,7 +407,7 @@ body {
 .contactsitem:nth-child(2)::before {
 	content: "";
 	display: inline-block;
-	background: url("/img/Phone-icon.png") 0 0 no-repeat;
+	background: url("img/Phone-icon.png") 0 0 no-repeat;
 	width: 50px;
 	height: 55px;
 	margin: -11px 22px 0px 8px;
@@ -417,7 +417,7 @@ body {
 .contactsitem:last-child::before {
 	content: "";
 	display: inline-block;
-	background: url("/img/mail-icon.png") 0 0 no-repeat;
+	background: url("img/mail-icon.png") 0 0 no-repeat;
 	width: 50px;
 	height: 55px;
 	margin: -9px 24px 0px 6px;
@@ -471,7 +471,7 @@ body {
 
 .maininfo {
 	min-height: 376px;
-	background: #FAFAFB url('/img/atteat-bg.png') right top no-repeat;
+	background: #FAFAFB url('img/atteat-bg.png') right top no-repeat;
 	margin: 0px 0px 33px 0px;
 }
 
