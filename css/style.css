@@ -162,7 +162,7 @@ body {
 	content: "";
 	width: 20px;
 	height: 11px;
-	background: url('img/Arrow1.png') 0 0 no-repeat;
+	background: url('../img/Arrow1.png') 0 0 no-repeat;
 	display: inline-block;
 	margin: 0px 0px 0px 18px;
 }
