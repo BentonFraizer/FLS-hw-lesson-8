@@ -326,7 +326,7 @@ body {
 .postinfoitem:nth-child(2)::before {
 	content: "";
 	display: inline-block;
-/* 	background: url("../img/eye-icon.png") 0 0 no-repeat; */
+	background: url("../img/eye-icon.png") 0 0 no-repeat;
 	width: 16px;
 	height: 14px;
 	margin: 7px 5px 0px 0px;
