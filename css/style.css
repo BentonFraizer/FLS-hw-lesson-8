@@ -1,0 +1,622 @@
+@font-face {
+	font-family: 'Futura PT Book';
+	src: url('/fonts/FuturaPT-Book.woff2') format('woff2'),
+			url('/fonts/FuturaPT-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/fonts/Gilroy-Regular.woff2') format('woff2'),
+			url('/fonts/Gilroy-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/fonts/Gilroy-Medium.woff2') format('woff2'),
+			url('/fonts/Gilroy-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/fonts/Gilroy-Heavy.woff2') format('woff2'),
+			url('/fonts/Gilroy-Heavy.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/fonts/Gilroy-Black.woff2') format('woff2'),
+			url('/fonts/Gilroy-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-size: 14px;
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ---------------------------- */
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Futura PT Book';	
+	background-color: #E5E5E5;
+}
+
+.hero {
+	z-index: 1;
+	background: url("/img/Decor-bg.png") right 22% top 10% no-repeat;
+}
+
+.header {
+	margin: 26px 0px 124px 0px;
+}
+
+.logo {
+	display: inline;
+}
+
+.menubox {
+	display: inline-block;
+	width: 100%;
+	max-width: 803px;
+}
+
+.menulist {
+	min-height: 50px;
+	width: 100%;
+	display: inline-block;
+	padding: 0px 0px 0px 16.5%;
+}
+
+.menuitem {
+	display: inline-block;
+	font-size: 16px;
+	padding: 17px 0px 0px 0px;
+	margin: 0px 5.54% 0px 0px;
+}
+
+.menuitem a:focus {
+	outline: 2px solid #70C851;
+}
+
+.menuitem a:hover {
+	text-decoration: underline;
+}
+
+.contactusbtn {
+	font-family: 'Gilroy';
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #70C851;
+	padding: 14px 9px 14px 30px;
+	border-radius: 3px;
+}
+
+.contactusbtn:hover {
+	background-color: #59B13A;
+}
+
+.contactusbtn:active {
+	background-color: #B34EE9;
+}
+
+.contactusbtn:focus {
+	text-shadow: 1px 1px 1px #57AF38;
+}
+
+.contactusbtn span::after {
+	content: "";
+	width: 20px;
+	height: 11px;
+	background: url('/img/Arrow1.png') 0 0 no-repeat;
+	display: inline-block;
+	margin: 0px 0px 0px 18px;
+}
+
+.h2container {
+	max-width: 43%;
+}
+
+.subtitle {
+	font-family: 'Poppins';
+	font-size: 40px;
+	line-height: 1.63;
+	margin: 0px 0px 50px 0px;
+}
+
+.subtitle span{
+	font-weight: 800;
+}
+
+.startworkbtn {
+	font-family: 'Poppins';
+	display: inline-block;
+	background-color: #70C851;
+	color: #fff;
+	padding: 17px 44px;
+	font-weight: 500;
+	font-size: 16px;
+	border-radius: 2px;
+	margin: 0px 0px 161px 0px;
+}
+
+.startworkbtn:hover {
+	background-color: #59B13A;
+}
+
+.startworkbtn:active {
+	background-color: #B34EE9;
+}
+
+.info {
+	background-color: #F8F8F8;
+	background-size: cover;
+	padding: 48px 0px 56px 0px;
+}
+
+.infoleft {
+	font-family: 'Poppins';
+	max-width: 66%;
+	display: inline-block;
+	margin: 0px 120px 0px 0px;
+}
+
+.infolefttextup {
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 42px;
+	margin: 0px 0px 21px 0px;
+}
+
+.infolefttextdown {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.inforight {
+	font-family: 'Gilroy';
+	display: inline-block;
+	font-size: 18px;
+}
+
+.infoitem {
+	margin: 0px 0px 40px 0px;
+}
+
+.infoitem::before {
+	content: "";
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background: #70C851;
+	margin: 0px 9px 0px 0px;
+}
+
+.infoitem:last-child {
+	margin: 0px 0px 0px 0px;
+}
+
+.somewrapper {
+	background-color: #F8F8F8;
+	margin: 0px 0px 100px 0px;
+}
+
+.blog {
+	margin: 0px 0px 174px 0px;
+}
+
+.blog .subtitle {
+	margin: 0px 0px 44px 0px;
+}
+
+.blogcontentleft {
+	display: inline-block;
+	margin: 0px 31px 0px 0px;
+	float: left;
+}
+
+.blockcontentimage {
+	display: inline-block;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.blogcontentright {
+	display: inline-block;
+	max-width: 35%;
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	margin: 10px 0px 0px 0px;
+}
+
+.blogtitle {
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	margin: 0px 0px 15px 0px;
+}
+
+.boldtext {
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	margin: 0px 0px 10px 0px;
+}
+
+.thintext {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0px 0px 26px 0px;
+}
+
+.postinfolist {
+	margin: 0px 0px 40px 0px;
+}
+
+.postinfoitem {
+	display: inline-block;
+	font-size: 13px;
+	margin: -8px 7.8% 0px 0px;
+}
+
+.postinfoitem:first-child::before {
+	content: "";
+	display: inline-block;
+	background: url("/img/calendar-icon.png") 0 0 no-repeat;
+	width: 14.5px;
+	height: 16px;
+	margin: 7px 5px 0px 0px;
+}
+
+.postinfoitem:nth-child(2)::before {
+	content: "";
+	display: inline-block;
+	background: url("/img/eye-icon.png") 0 0 no-repeat;
+	width: 16px;
+	height: 14px;
+	margin: 7px 5px 0px 0px;
+}
+
+.postinfoitem:last-child::before {
+	content: "";
+	display: inline-block;
+	background: url("/img/messages-icon.png") 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 7px 5px 0px 0px;
+}
+
+.contacts {
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.contacts-container {
+	padding-top: 55px;
+}
+
+.contentside {
+	display: inline-block;
+	max-width: 53%;
+	min-height: 550px;
+}
+
+.boldtext {
+	padding: 7px 0px 0px 0px;
+	margin: 0px 0px 11px 0px;
+}
+
+.contactstext {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px 0px 50px 0px;
+}
+
+.contactslist {
+	max-width: 57%;
+}
+
+.contactsitem {
+	font-size: 16px;
+	line-height: 24px;
+	display: inline-block;
+}
+
+.contactsitem:first-child,
+.contactsitem:first-child {
+	font-weight: 400;
+}
+
+.contactsitem:nth-child(2) {
+	font-weight: 500;
+	margin: 13px 0px 32px 0px;
+}
+
+.contactsitem:first-child {
+	margin: 5px 0px 30px 0px;
+}
+
+.contactsitem:last-child {
+	margin: 9px 0px 0px 0px;
+}
+
+.contactsitem:first-child::before {
+	content: "";
+	display: inline-block;
+	background: url("/img/map-pointer-icon.png") 0 0 no-repeat;
+	width: 50px;
+	height: 55px;
+	margin: 5px 30px 0px 0px;
+	float: left;
+}
+
+.contactsitem:nth-child(2)::before {
+	content: "";
+	display: inline-block;
+	background: url("/img/Phone-icon.png") 0 0 no-repeat;
+	width: 50px;
+	height: 55px;
+	margin: -11px 22px 0px 8px;
+	float: left;
+}
+
+.contactsitem:last-child::before {
+	content: "";
+	display: inline-block;
+	background: url("/img/mail-icon.png") 0 0 no-repeat;
+	width: 50px;
+	height: 55px;
+	margin: -9px 24px 0px 6px;
+	float: left;
+}
+
+.imageside {
+	float: right;
+	display: inline-block;
+}
+
+.contacts .somewrapper {
+	margin: 0px 0px 20px 0px;
+}
+
+.attestation {
+	min-width: 945px;
+	font-family: "Gilroy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 0px 0px 60px 0px;
+}
+
+.breadcrumbslist {
+	margin: 0px 0px 31px 0px;
+}
+
+.breadcrumbsitem {
+	display: inline;
+}
+
+.breadcrumbsitem a {
+	text-decoration: none;
+	color: #86AFEF;
+	font-weight: 500;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.breadcrumbsitem:last-child a {
+	color: #7d7d7d ;
+}
+
+.breadcrumbsitem::after {
+	content: " - ";
+	color: #86AFEF;
+	text-decoration: underline;
+}
+
+.breadcrumbsitem:last-child::after {
+	content: "";
+}
+
+.maininfo {
+	min-height: 376px;
+	background: #FAFAFB url('/img/atteat-bg.png') right top no-repeat;
+	margin: 0px 0px 33px 0px;
+}
+
+.fistcol {
+	display: inline-block;
+	max-width: 20%;
+	font-size: 15px;
+	padding: 41px 0px 0px 53px;
+	margin: 0px 79px 0px 0px;
+}
+
+.textprice {
+	color: #333;
+	font-weight: 500;
+	margin: 0px 0px 10px 0px;
+}
+
+.price {
+	color: #87B0EE;
+	font-weight: 800;
+	font-size: 36px;
+	border-bottom: 2px solid  #87B0EE;
+	max-width: 124px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 27px 20px;
+}
+
+.period {
+	font-weight: 500;
+	margin: 0px 0px 23px 9px;
+}
+
+.periodlimit {
+	margin: 0px 0px 8px 26px;
+}
+
+.fourgroups {
+	margin: 0px 0px 8px 6px;
+}
+
+.fifthgroup {
+	margin: 0px 0px 47px 6px;
+}
+
+.orderbtn {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	padding: 15px 55px;
+	margin: 0px 0px 0px -15px;
+	background: linear-gradient(90deg, rgba(135,175,241,1) 0%, rgba(108,128,203,1) 100%);
+	border-radius: 3px;
+}
+
+.orderbtn:hover {
+	background: linear-gradient(90deg, rgba(136,157,241,1) 0%, rgba(114,108,203,1) 100%);
+	font-weight: 500;
+	padding: 16px 56px;
+}
+
+.orderbtn:active {
+	background: linear-gradient(90deg, rgba(233,103,237,1) 0%, rgba(250,123,247,1) 100%);
+}
+
+.boldtextspan {
+	font-weight: 700;
+}
+
+.secondcol {
+	display: inline-block;
+	max-width: 42%;
+}
+
+.thirdcol {
+	display: inline-block;
+	float: right;
+	margin: 60px 0px 0px 0px;
+}
+
+.thirdcol img {
+	height: auto;
+	width: 100%;
+	max-width: 320px;
+}
+
+.attestsubtitle {
+	font-weight: 900;
+	font-size: 40px;
+	color: #333;
+	line-height: 51px;
+	margin: 0px 0px 16px 0px;
+}
+
+.maintext {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	color: #333;
+}
+
+.textcontent1 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0px 0px 30px 0px;
+}
+
+.attesth3subtitle {
+	font-weight: 800;
+	font-size: 24px;
+	margin: 0px 0px 16px 0px;
+}
+
+.textcontent2 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0px 0px 18px 0px;
+}
+
+.h4subtitle {
+	color: #333;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 24px;
+	margin: 0px 0px 20px 0px;
+}
+
+.employeelist {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.employeeitem {
+	margin: 0px 0px 15px 60px;
+}
+
+.employeeitem::before {
+	content: '';
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: #87B0EE;
+	margin: 0px 10px 0px 0px;
+}
