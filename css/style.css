@@ -96,7 +96,7 @@ body {
 
 .hero {
 	z-index: 1;
-	background: url("img/Decor-bg.png") right 22% top 10% no-repeat;
+	background: url("../img/Decor-bg.png") right 22% top 10% no-repeat;
 }
 
 .header {
